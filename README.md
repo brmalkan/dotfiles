@@ -1,2 +1,10 @@
-# briaNVim.config
-My lazyvim lua configuration files
+# Brian's dotfiles
+
+My configuration files for:
+- nvim
+- terminal (kitty)
+- yabai
+- sketchybar
+- jankyborders
+- skhd
+- spicetify
