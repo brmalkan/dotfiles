@@ -1,0 +1,29 @@
+# bsp, stack, float
+yabai -m config layout bsp
+yabai -m config window_placement second_child
+
+# Padding
+yabai -m config top_padding 18
+yabai -m config bottom_padding 12
+yabai -m config left_padding 12
+yabai -m config right_padding 12
+yabai -m config window_gap 12
+
+# Mouse
+yabai -m config mouse_follows_focus on
+
+yabai -m config mouse_modifier alt
+yabai -m config mouse_action1 move
+yabai -m config mouse_action2 resize
+yabai -m mouse_drop_action swap
+
+# Specific apps disable
+yabai -m rule --add app="^System Settings$" manage=off
+yabai -m rule --add app="^Calculator$" manage=off
+yabai -m rule --add app="^Karabiner-Elements$" manage=off
+yabai -m rule --add app="^Python$" manage=off
+yabai -m rule --add app="^FaceTime$" manage=off
+
+borders active_color=0xffF2A2D6 inactive_color=0xffe1e3e4 width=7.0 &
+
+yabai -m config external_bar all:32:0

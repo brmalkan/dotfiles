@@ -2,6 +2,7 @@
 
 sketchybar --add item calendar right \
   --set calendar icon=􀧞 \
+  icon.drawing=on \
   update_freq=30 \
   background.color=$BACKGROUND_1 \
   background.corner_radius=9 \
